@@ -27,10 +27,10 @@ section {
     flex: 5 0;
 }
 
+
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
-
 
 .card-container {
     display: flex;
@@ -92,4 +92,12 @@ a:link, a:visited, a:hover, a:active {
 .title, h1, h2, p {
     font-family: 'Teko', sans-serif;
     color:rgb(255, 255, 255);
+}
+
+li, li > a {
+    color: rgb(255, 255, 255);
+}
+
+li {
+    margin: 5px;
 }

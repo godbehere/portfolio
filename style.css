@@ -89,7 +89,7 @@ a:link, a:visited, a:hover, a:active {
     width: 50px;
 }
 
-.title, h1, h2, p {
+.title, h1, h2, p, a{
     font-family: 'Teko', sans-serif;
     color:rgb(255, 255, 255);
 }
@@ -100,4 +100,9 @@ li, li > a {
 
 li {
     margin: 5px;
+    font-size: 1.2em;
+}
+
+p {
+    text-align: justify;
 }

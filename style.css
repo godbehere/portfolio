@@ -102,7 +102,7 @@ header {
     box-shadow: 5px 5px 1px black;
 }
 
-.title, h1, h2, p, a{
+.title, h1, h2, p, a, li{
     font-family: 'Teko', sans-serif;
     color:rgb(255, 255, 255);
 }
@@ -118,4 +118,11 @@ li {
 
 p {
     text-align: justify;
+}
+
+#blurb {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #0D1317;
 }

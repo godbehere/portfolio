@@ -29,6 +29,10 @@ function showBlurb() {
             blurbs.forEach(item => item.hidden=true);
             document.querySelector('#elevator-blurb').hidden = false;
             break;
+        case 'landing':
+            blurbs.forEach(item => item.hidden=true);
+            document.querySelector('#landing-blurb').hidden = false;
+            break;
     }
 }
 function hideBlurd() {
